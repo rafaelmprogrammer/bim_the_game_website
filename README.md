@@ -46,3 +46,6 @@ Installation
   cd my-site
 
 3. Open the index.html file in your browser
+
+
+NOTE: All the images from the game have copyright
