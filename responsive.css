@@ -1,0 +1,417 @@
+/* Media Queries */
+
+/* For small devices (portrait tablets and large phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 1024px) {
+  /*HOME PAGE*/
+  .main-image-home {
+    width: 400px;
+    height: auto;
+  }
+  
+  .botao-play {
+    width: 150px;
+    height: auto;
+  }
+
+  /*NAV BAR*/
+
+  .navbar-toggler {
+    display: none; 
+  }
+    
+      
+  .nav-link {
+    font-size: 20px;
+    color: #000;
+  }
+
+  .nav-item{
+    padding-left: 50px;
+  }
+
+  .nav-item-logo{
+    display: inline-flex;
+    width: 120px;
+    height: auto;
+  }
+
+    
+  #collapsibleNavbar {
+    display: flex !important;
+    background: none;
+    margin: 10px;
+  }
+
+      
+  .navbar-nav {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+
+      
+  .navbar-brand{
+    display: none;
+  }
+
+      
+  .nav-link > .info-icon, .art-icon, .lore-icon, .controls-icon{
+    display: none;
+  }
+
+  .nav-link.active, 
+  .nav-link:focus,  
+  .nav-item.active, 
+  .nav-item:focus {
+    background-color: transparent; 
+    color: inherit !important; 
+    box-shadow: none; 
+    border-radius: 0; 
+    width: auto; 
+    height: auto; 
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /*FOOTER*/
+  footer .container-fluid {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+  .social-media {
+    flex: 0 0 auto; 
+    order: 1;
+    margin-right: 50px;
+    padding-bottom: 20px;
+  }
+      
+  .social-media img {
+    width: 100%;
+    max-width: 15vw;
+    height: auto;
+  }
+
+  .text-footer {
+    flex: 1; 
+    text-align: right; 
+    margin-left: 250px;
+  }
+
+  /*GAME INFO PAGE*/
+  .main-game-info > .container-fluid{
+    display: none;
+  }
+
+  .main-game-info > .container-fluid-md{
+    display: grid;
+  }
+
+  .main-title {
+    text-align: center;
+  }
+
+  .imagem-jogo {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%;
+  }
+
+  .row.align-items-center {
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .col-md-6 > p{
+    margin-top: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: center;
+  }
+
+  /*GAME LORE*/
+  .row > img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+
+  .paragrafo-game-lore{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /*GAME CONTROLS*/
+  #main-controls > .container-fluid{
+    display: none;
+  }
+
+  #main-controls > .container-fluid-md{
+    display: grid;
+  }
+  
+  .main-title {
+    text-align: center;
+  }
+
+  .imagem-control {
+    width: 100%; 
+    height: auto; 
+    max-width: 300px;       
+    margin-left: 100px;
+  }
+   
+  .row.align-items-center {
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .col-md-6{
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px; 
+  }
+
+  .table-controls {
+    width: 100%; 
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+  }
+
+  .table-controls th, .table-controls td{
+    font-size: 20px;
+  }
+
+  /*ART LIBRARY PAGE*/
+
+  .carousel-item > .carousel-item-name{
+    font-size: 25px;
+  }
+    
+  .carousel-item > img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+    
+  .carousel{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+
+@media (min-width:1025px){
+  /*HOME PAGE*/
+  .main-image-home {
+    width: 400px;
+    height: auto;
+  }
+  
+  .botao-play {
+    width: 150px;
+    height: auto;
+  }
+
+  /*NAV BAR*/
+
+  .navbar-toggler {
+    display: none; 
+  }
+    
+      
+  .nav-link {
+    font-size: 20px;
+    color: #000;
+  }
+
+  .nav-item{
+    padding-left: 50px;
+  }
+
+  .nav-item-logo{
+    display: inline-flex;
+    width: 120px;
+    height: auto;
+  }
+
+    
+  #collapsibleNavbar {
+    display: flex !important;
+    background: none;
+    margin: 10px;
+  }
+
+      
+  .navbar-nav {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+
+      
+  .navbar-brand{
+    display: none;
+  }
+
+      
+  .nav-link > .info-icon, .art-icon, .lore-icon, .controls-icon{
+    display: none;
+  }
+
+  .nav-link.active, 
+  .nav-link:focus,  
+  .nav-item.active, 
+  .nav-item:focus {
+    background-color: transparent; 
+    color: inherit !important; 
+    box-shadow: none; 
+    border-radius: 0; 
+    width: auto; 
+    height: auto; 
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /*FOOTER*/
+  footer .container-fluid {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+  .social-media {
+    flex: 0 0 auto; 
+    order: 1;
+    margin-right: 50px;
+    padding-bottom: 20px;
+  }
+      
+  .social-media img {
+    width: 100%;
+    max-width: 15vw;
+    height: auto;
+  }
+
+  .text-footer {
+    flex: 1; 
+    text-align: right; 
+    margin-left: 250px;
+  }
+
+  /*GAME INFO PAGE*/
+  .main-game-info >.container-fluid{
+    display: none;
+  }
+
+  .main-game-info > .container-fluid-md{
+    display: grid;
+  }
+
+  .main-title {
+    text-align: center;
+  }
+
+  .imagem-jogo {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    margin-top: 30px; 
+  }
+
+    
+  .row.align-items-center {
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  .col-md-6 {
+    padding: 0px;
+  }
+
+  .col-md-6 > p{
+    margin-top: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+  }
+
+  /*GAME LORE*/
+  .row > img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+
+  .paragrafo-game-lore{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /*GAME CONTROLS*/
+  #main-controls > .container-fluid{
+    display: none;
+  }
+
+  #main-controls > .container-fluid-md{
+    display: grid;
+  }
+  
+  .main-title {
+    text-align: center;
+  }
+
+  .imagem-control {
+    width: 100%; 
+    height: auto; 
+    max-width: 400px;       
+    margin-left: 250px;
+  }
+   
+  .row.align-items-center {
+    display: flex;
+    justify-content: space-between; 
+  }
+  .col-md-6{
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px; 
+  }
+
+  .table-controls {
+    width: 80%; 
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+  }
+
+  .table-controls th, .table-controls td{
+    font-size: 20px;
+  }
+
+  /*ART LIBRARY PAGE*/
+
+  .carousel-item > .carousel-item-name{
+    font-size: 25px;
+  }
+    
+  .carousel-item > img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+    
+  .carousel{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+}

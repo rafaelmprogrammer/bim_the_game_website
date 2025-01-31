@@ -1,0 +1,344 @@
+/* Typography styles for different font families and weights */
+.inter-uniquifier {
+  font-family: "Inter", serif;
+  font-size: 10px;
+  font-style: normal;
+}
+
+.dai-banna-sil-regular {
+  font-family: "Dai Banna SIL", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.dai-banna-sil-semibold {
+  font-family: "Dai Banna SIL", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+  
+.dai-banna-sil-bold {
+  font-family: "Dai Banna SIL", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+  
+  
+/*BODY*/  
+.custom-body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  background-image: linear-gradient( #fff0d8, #ECDABE);
+  font-family: "Dai Banna SIL", serif;
+}
+
+/*HEADER*/
+.logo-image{
+  width: 100%;
+  height: auto;
+  max-height: 70px;
+  max-width: 130px;
+  margin: 29px 50px 18px 50px;
+}
+
+.navbar-brand{
+  margin:0px; 
+}
+
+.navbar-toggler {
+  border: none;
+  margin: 49px 25px 18px 50px;
+}
+
+.navbar-nav{
+  width: 100%;
+  height: auto; 
+}
+
+#collapsibleNavbar{
+  background-color: #F9ADB2;
+  text-align: right; 
+}
+
+/*HAMBURGUER MENU*/
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url('./menu_30dp_00000_FILL0_wght400_GRAD0_opsz24.png');
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*CLOSE MENU*/
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  background-image: url('./close_24dp_00000_FILL0_wght400_GRAD0_opsz24.png');
+}
+
+.navbar-toggler:focus, 
+.navbar-toggler:active {
+  outline: none; 
+  box-shadow: none; 
+}
+
+.nav-item-logo{
+  display: none;
+}
+
+.nav-link{
+  color: #FBFBFB;
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.info-icon{
+  margin-right: 34px;
+  margin-left: 36px;
+  width: 24px;
+  height: auto;
+}
+
+.art-icon{
+  margin-right: 34px;
+  margin-left: 36px;
+  width: 24px;
+  height: auto;
+}
+
+.lore-icon{
+  margin-right: 34px;
+  margin-left: 36px;
+  width: 24px;
+  height: auto;
+}
+
+.controls-icon{
+  margin-right: 34px;
+  margin-left: 36px;
+  width: 24px;
+  height: auto;
+}
+
+.nav-link.active, 
+.nav-link:focus,  
+.nav-item.active, 
+.nav-item:focus{ 
+  background-color: #FFFFFF; 
+  color: #C67773 !important;
+  box-shadow: 0 4px 4px #af7d80; 
+  border-top-left-radius: 30px; 
+  border-bottom-left-radius: 30px;
+  margin-left: 36px;
+  margin-top: 0px;
+  width: 290px;
+  height: 56px;
+  align-content: center;
+}
+
+.nav-link.active .info-icon {
+  content: url('./info_24dp_CD8784_FILL0_wght400_GRAD0_opsz24.png');
+  transition: all 0.3s ease; 
+  margin-right: 34px;
+  margin-left: 36px;
+  width: 24px;
+  height: auto;
+}
+
+.nav-link.active .art-icon {
+  content: url('./brush_24dp_CD8784_FILL0_wght400_GRAD0_opsz24.png');
+  transition: all 0.3s ease; 
+  margin-right: 34px;
+  margin-left: 36px;
+  width: 24px;
+  height: auto;
+}
+
+.nav-link.active .lore-icon {
+  content: url('./history_edu_24dp_CD8784_FILL0_wght400_GRAD0_opsz24.png');
+  transition: all 0.3s ease; 
+  margin-right: 34px;
+  margin-left: 36px;
+  width: 24px;
+  height: auto;
+}
+
+.nav-link.active .controls-icon {
+  content: url('./sports_esports_24dp_CD8784_FILL0_wght400_GRAD0_opsz24.png');
+  transition: all 0.3s ease; 
+  margin-right: 34px;
+  margin-left: 36px;
+  width: 24px;
+  height: auto;
+}
+
+/*HOME PAGE*/
+#main-home{
+  flex: 1;
+  margin: 78px 0 101px 0;
+}
+
+#main-home > .container-fluid{
+  padding: 0px;
+}
+
+
+.main-image-home{
+  width: 223px;
+  height: auto;
+}
+
+.botao-play{
+  width: 95px;
+  height: auto;
+}
+
+#main-home > .container-fluid > .row {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*FOOTER*/
+footer{
+  margin-top: auto;
+  width: 100%;
+  height: auto;
+}
+
+
+.social-media > img{
+  width: 100%;
+  max-width: 15vw;
+  height: auto;
+}
+
+.text-footer{
+  margin: 16px 0px 10px 0px;
+  font-family: "Inter", serif;
+}
+
+.text-center > p{
+  padding: 0px;
+}
+
+/*GAME INFO PAGE*/
+.main-game-info > .container-fluid-md{
+  display: none;
+}
+.main-game-info{
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-title{
+  margin: 45px 0px 34px 0px; 
+  padding: 0px; 
+}
+
+.imagem-jogo{
+  margin: 0px 0px 30px 0px;
+  padding: 0px 62px;
+}
+
+.paragrafo-game-info{
+  padding: 0px 26px 44px 26px;
+  margin: 0px;
+}
+
+.paragrafo-game-info > p{
+  margin: 0px;
+}
+
+/*ART LIBRARY PAGE*/
+#main-art-library{
+  margin: 0px 45px 128px 45px;
+}
+
+.carousel-item{
+  margin: 0;
+}
+
+.carousel-item >img{
+  max-width: 175px;
+  height: auto;
+}
+
+.carousel-item-name{
+  font-size: 16px;
+  margin: 57px 0px 0px 0px;
+}
+
+
+.carousel-control-prev-icon {
+  background-color: rgba(0, 0, 0, 0); 
+  background-image: url('./arrow_back_ios_24dp_00_FILL0_wght400_GRAD0_opsz24.png');
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px;
+}
+
+
+.carousel-control-next-icon{
+  background-image: url('./arrow_forward_ios_24dp_00_FILL0_wght400_GRAD0_opsz24.png'); 
+  background-color: rgba(0, 0, 0, 0); 
+  width: 40px; 
+  height: 40px; 
+  margin-left: 10px;
+}
+
+
+/*GAME LORE PAGE*/
+#main-game-lore{
+  padding: 0px;
+  margin: 0px;
+}
+
+.imagem-lore{
+  margin: 0px 0px 28px 0px;
+  padding: 0px 108px;
+}
+
+.paragrafo-game-lore{
+  padding: 0px 26px 44px 26px;
+  margin: 0px;
+}
+
+.paragrafo-game-lore > h2{
+  margin-bottom: 15px;
+}
+
+.paragrafo-game-lore > p{
+  padding: 0px 64px;
+  margin-bottom: 21px;
+}
+
+/*GAME CONTROLS PAGE*/
+#main-controls{
+  margin-bottom: 59px;
+}
+
+.imagem-control{
+  margin-top: 55px;
+  width: 100%;
+  max-width: 170px;
+  height: auto;
+}
+.table-controls{
+  width: 300px;
+  height: auto;
+  background-color: transparent; 
+  border: 1px solid black;
+}
+
+.table-controls th, 
+.table-controls td {
+  background-color: transparent; 
+  border: 1.5px solid black; 
+}
+
+#main-controls > .container-fluid-md{
+  display: none;
+}
