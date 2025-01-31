@@ -16,6 +16,8 @@ Technologies used
 
 - CSS3 (Flexbox, Grid)
 
+- Bootstrap5 
+
 - Visual Studio Code
 
 - Figma
